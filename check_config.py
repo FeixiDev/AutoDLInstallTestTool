@@ -117,6 +117,4 @@ class CheckConfig():
         self.check_source_drbd_package()
         self.check_source_linstor_package()
 
-if __name__ == "__main__":
-    check_config = CheckConfig()
-    check_config.check_all_config()
+
